@@ -4,6 +4,18 @@ from collections import defaultdict
 
 
 
+# solution using hash table
+class Solution:
+    def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
+        words_sorted_dict = defaultdict(list)
+
+        for word in strs:
+            count = [0] * 26  # count array for letters a to z
+            for letter in word:
+                count[ord(letter) - ord('a')] += 1
+            words_sorted_dict[tuple(count)].append(word)
+        return list(words_sorted_dict.values())
+
 
 # time complexly: O(m * n log n) 
 # space complexly: O(m * n ) 
