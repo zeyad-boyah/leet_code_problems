@@ -2,8 +2,6 @@ from typing import List
 from collections import defaultdict
 
 
-
-
 # solution using hash table
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
@@ -12,13 +10,13 @@ class Solution:
         for word in strs:
             count = [0] * 26  # count array for letters a to z
             for letter in word:
-                count[ord(letter) - ord('a')] += 1
+                count[ord(letter) - ord("a")] += 1
             words_sorted_dict[tuple(count)].append(word)
         return list(words_sorted_dict.values())
 
 
-# time complexly: O(m * n log n) 
-# space complexly: O(m * n ) 
+# time complexly: O(m * n log n)
+# space complexly: O(m * n )
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
         words_sorted_dict = defaultdict(list)
@@ -27,7 +25,6 @@ class Solution:
             sorted_word = "".join(sorted(word))
             words_sorted_dict[sorted_word].append(word)
         return list(words_sorted_dict.values())
-        
 
 
 # Input: strs = ["eat","tea","tan","ate","nat","bat"]

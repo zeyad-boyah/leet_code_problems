@@ -1,19 +1,21 @@
 # Definition for singly-linked list.
 from typing import Optional
 
+
 class ListNode:
     def __init__(self, val=0, next=None):
         self.val = val
         self.next = next
 
 
-def LL_len (head):
+def LL_len(head):
     current = head
     ll_len = 0
     while current:
         current = current.next
         ll_len += 1
     return ll_len
+
 
 class Solution:
     def reorderList(self, head: Optional[ListNode]) -> None:
@@ -27,25 +29,25 @@ class Solution:
         element_to_be_modified = head
         # this is the number of times a pointer rearrangement has happened and max mode will come for this equation (len-1)/2
         modification_num = 0
-        max_modification_num = int((ll_len-1)/2)
+        max_modification_num = int((ll_len - 1) / 2)
         if max_modification_num == 0:
             return
-        
+
         current_loop = 1
         midway_pointer = None
 
         while modification_num < max_modification_num:
-            if current_loop == int(ll_len/2):
+            if current_loop == int(ll_len / 2):
                 midway_pointer = current_element
 
             # if we reach the end of the LL
             if element_after.next == None:
-                # some intense pointer logic i made with a white board 
+                # some intense pointer logic i made with a white board
                 # for rearranging elements
                 element_after.next = element_to_be_modified.next
                 element_to_be_modified.next = element_after
                 current_element.next = None
-                element_to_be_modified = element_after.next 
+                element_to_be_modified = element_after.next
                 # nav pointers
                 current_element = midway_pointer
                 element_after = current_element.next
@@ -59,8 +61,7 @@ class Solution:
         return head
 
 
-
-# this is for testing 
+# this is for testing
 def list_to_linked_list(lst):
     if not lst:
         return None
@@ -79,8 +80,6 @@ def linked_list_to_list(head):
         result.append(current.val)
         current = current.next
     return result
-
-
 
 
 # if __name__ == "__main__":
@@ -116,20 +115,12 @@ class Solution:
 """
 
 
-
-
-
-
-
-
-
-
 """
 this solution will not satisfy the space complexly requirement of the problem so i need to find another solution by rearranging the already existing pointers
 without creating an entirely new linked list :( :cry:
 """
 
-'''class Solution:
+"""class Solution:
     def reorderList(self, head: Optional[ListNode]) -> None:
         odd_counter= 0
         even_counter = 1
@@ -166,7 +157,4 @@ def list_to_LL (given_list):
     for i in range(1,len(given_list)-1, 1):
         current.next = ListNode(given_list[i])
         current = current.next
-    return head'''
-        
-
-        
+    return head"""
