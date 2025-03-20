@@ -12,9 +12,11 @@ this repo is for my answers to LeetCode problems
 - **Linked list:** 
     - Reorder List (M)
 - **Two Pointers:**
-    - 3Sum
+    - 3Sum (m)
+    - valid_palindrome (E)
+- **SQL:**
+    - Rising Temperature
 
-
-- Rising Temperature  
+mk 
 - add two numbers
 - longest_substring_without_repeating_characters (intriguing) (M)
