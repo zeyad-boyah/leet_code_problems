@@ -6,6 +6,7 @@ this repo is for my answers to LeetCode problems
 - **Arrays&Hashing:**
     - Contains Duplicate (E)
     - Two sum (E)
+    - valid anagram (E)
     - Group Anagrams (M)
 - **Linked list:** 
     - Reorder List (M)
