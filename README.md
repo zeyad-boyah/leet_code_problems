@@ -9,6 +9,8 @@ this repo is for my answers to LeetCode problems
     - valid anagram (E)
     - Group Anagrams (M)
     - top k frequent elements (M)
+    - product of array except self (M)
+    - Valid Soduko (M)
 - **Linked list:** 
     - Reorder List (M)
 - **Two Pointers:**
