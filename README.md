@@ -12,7 +12,10 @@ this repo is for my answers to LeetCode problems
     - product of array except self (M)
     - Valid Soduko (M)
 - **Linked list:** 
+    - linked list cycle (E)
+    - reverse linked list (E)
     - Reorder List (M)
+    - add two numbers (M)
 - **Two Pointers:**
     - 3Sum (m)
     - valid_palindrome (E)
@@ -20,5 +23,5 @@ this repo is for my answers to LeetCode problems
     - Rising Temperature
 
 mk 
-- add two numbers
+- palindrome number
 - longest_substring_without_repeating_characters (intriguing) (M)
