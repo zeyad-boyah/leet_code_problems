@@ -13,6 +13,7 @@ this repo is for my answers to LeetCode problems
 - **Linked list:**
   - linked list cycle (E)
   - reverse linked list (E)
+  - Merge Two Sorted Lists (E)
   - Reorder List (M)
   - add two numbers (M)
 - **Two Pointers:**
