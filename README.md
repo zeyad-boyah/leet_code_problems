@@ -22,6 +22,10 @@ this repo is for my answers to LeetCode problems
   - valid_palindrome (E)
 - **SQL:**
   - Rising Temperature
+- **Stack:**
+  - Valid Parentheses (E)
+  
+
 
 mk
 
