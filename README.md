@@ -11,7 +11,7 @@ this repo is for my answers to LeetCode problems
   - product of array except self (M)
   - Valid Soduko (M)
   - Longest Consecutive Sequence (M)
-  - Encode and Decode Strings (M) (Re)
+  - Encode and Decode Strings (M) (Re) (^) (23/9/2025)
 - **Linked list:**
   - linked list cycle (E)
   - reverse linked list (E)
@@ -33,3 +33,4 @@ mk
 
 - palindrome number
 - longest_substring_without_repeating_characters (Re) (M)
+- best time to buy and sell stock (s) -> https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
