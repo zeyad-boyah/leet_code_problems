@@ -3,8 +3,8 @@
 this repo is for my answers to LeetCode problems 
 
 - **Arrays&Hashing:**
-  - Contains Duplicate (E)
-  - Two sum (E)
+  - Contains Duplicate (E) (^) (23/9/2025)
+  - Two sum (E) (^) (23/9/2025)
   - valid anagram (E)
   - Group Anagrams (M)
   - top k frequent elements (M)
