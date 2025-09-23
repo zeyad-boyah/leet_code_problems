@@ -32,4 +32,4 @@ this repo is for my answers to LeetCode problems
 mk
 
 - palindrome number
-- longest_substring_without_repeating_characters (intriguing) (M)
+- longest_substring_without_repeating_characters (Re) (M)

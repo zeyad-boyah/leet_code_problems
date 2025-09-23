@@ -1,21 +1,29 @@
 from typing import List
 
-class Solution:
-    def encode(self, strs: List[str]) -> str:
-        encoded_string = ""
-        for word in strs:
-            encoded_string += str(len(word)) + "@" + word
-        return encoded_string
-    
-    def decode(self, s: str) -> List[str]:
-        decoded_array = []
-        i = 0
-        while i < len(s):  
-            j = i
-            while s[j] != "@":
-                j += 1
-            current_word_length = int(s[i:j])  
-            decoded_array.append(s[j+1 : j+1+current_word_length])  
-            i = j + 1 + current_word_length  
-        return decoded_array
 
+class Solution:
+
+    def encode(self, strs: List[str]) -> str:
+        encoded_word = ""
+        for word in strs:
+            encoded_word += str(len(word)) + "&" + word
+        return encoded_word
+
+    def decode(self, s: str) -> List[str]:
+        encoded_word_pointer = 0
+        decoded_arr = []
+        while encoded_word_pointer < len(s):
+            dec_word_pointer = encoded_word_pointer
+            while s[dec_word_pointer] != "&":
+                dec_word_pointer += 1
+            current_word_length = int(s[encoded_word_pointer:dec_word_pointer])
+            decoded_arr.append(
+                s[dec_word_pointer + 1 : dec_word_pointer + current_word_length + 1]
+            )
+            encoded_word_pointer = dec_word_pointer + current_word_length + 1
+        return decoded_arr
+
+
+# sus = Solution.encode(["neet","code","love","you"])
+
+# Solution.decode(sus)
