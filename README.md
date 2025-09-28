@@ -25,7 +25,7 @@ this repo is for my answers to LeetCode problems
 - **SQL:**
   - Rising Temperature
 - **Stack:**
-  - Valid Parentheses (E)
+  - Valid Parentheses (E) (^) (28/9/2025)
   
 
 
