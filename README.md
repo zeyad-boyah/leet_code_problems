@@ -27,6 +27,7 @@ this repo is for my answers to LeetCode problems
 - **Stack:**
   - Valid Parentheses (E) (^) (28/9/2025)
   - Min stack (M) 
+  - Evaluate reverse polish notation (m)
   
 
 
