@@ -5,8 +5,8 @@ this repo is for my answers to LeetCode problems
 - **Arrays&Hashing:**
   - Contains Duplicate (E) (^) (23/9/2025)
   - Two sum (E) (^) (23/9/2025)
-  - valid anagram (E)
-  - Group Anagrams (M)
+  - valid anagram (E) (^) (25/9/2025)
+  - Group Anagrams (M) (^) (25/9/2025)
   - top k frequent elements (M)
   - product of array except self (M)
   - Valid Soduko (M)
@@ -35,4 +35,4 @@ mk
 
 - palindrome number
 - longest_substring_without_repeating_characters (Re) (M)
-- best time to buy and sell stock (s) -> https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+- best time to buy and sell stock (s) -> https://leetcode.com/problems/best-time-to-buy-and-sell-stock/ (^) (25/9/2025)
