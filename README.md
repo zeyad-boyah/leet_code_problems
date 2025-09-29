@@ -12,6 +12,7 @@ this repo is for my answers to LeetCode problems
   - Valid Soduko (M)
   - Longest Consecutive Sequence (M)
   - Encode and Decode Strings (M) (Re) (^) (23/9/2025)
+  - missing number (E)
 - **Linked list:**
   - linked list cycle (E)
   - reverse linked list (E)
