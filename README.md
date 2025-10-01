@@ -31,6 +31,7 @@ this repo is for my answers to LeetCode problems
   - Evaluate reverse polish notation (m)
 - **bit manipulation:**
   - number of 1 bit (E)
+  - reverse bits (E)
 
   
 
