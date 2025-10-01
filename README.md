@@ -32,7 +32,7 @@ this repo is for my answers to LeetCode problems
 - **bit manipulation:**
   - number of 1 bit (E)
   - reverse bits (E)
-
+  - counting bits (E)
   
 
 
