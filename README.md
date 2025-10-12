@@ -1,6 +1,8 @@
-## LeetCode
+# LeetCode
 
-this repo is for my answers to LeetCode problems 
+this repo is for my answers to LeetCode problems
+
+---
 
 - **Arrays&Hashing:**
   - Contains Duplicate (E) (^) (23/9/2025)
@@ -14,33 +16,53 @@ this repo is for my answers to LeetCode problems
   - Encode and Decode Strings (M) (Re) (^) (23/9/2025)
   - missing number (E)
   - rotate image in-place (M)
+
+---
+
 - **Linked list:**
   - linked list cycle (E)
   - reverse linked list (E)
   - Merge Two Sorted Lists (E)
   - Reorder List (M)
   - add two numbers (M)
+
+---
+
 - **Two Pointers:**
   - 3Sum (m)
   - Two Sum II - Input Array Is Sorted (m)
   - valid_palindrome (E)
   - contains the most water (M)
-  - Traping rain water (H)
+  - Trapping rain water (H)
+
+---
+
 - **SQL:**
   - Rising Temperature
+
+---
+
+- **DP:**
+  - Climbing stairs (E)
+
+---
+
 - **Stack:**
   - Valid Parentheses (E) (^) (28/9/2025)
-  - Min stack (M) 
+  - Min stack (M)
   - Evaluate reverse polish notation (m)
+
+---
+
 - **bit manipulation:**
   - number of 1 bit (E)
   - reverse bits (E)
   - counting bits (E)
-  
 
+---
 
 mk
 
 - palindrome number
 - longest_substring_without_repeating_characters (Re) (M)
-- best time to buy and sell stock (s) -> https://leetcode.com/problems/best-time-to-buy-and-sell-stock/ (^) (25/9/2025)
+- best time to buy and sell stock (s) -> <https://leetcode.com/problems/best-time-to-buy-and-sell-stock/> (^) (25/9/2025)
