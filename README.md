@@ -44,6 +44,8 @@ this repo is for my answers to LeetCode problems
 
 - **DP:**
   - Climbing stairs (E)
+  - fib (E)
+  - Uniqe Paths (M)
 
 ---
 
