@@ -12,3 +12,11 @@ class Solution:
                     return [counter1, counter2]
                 counter2 += 1
             counter1 += 1
+
+class Solution2:
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+        for i in range(len(nums)):
+            candidate_num= target - nums[i]
+            for j in range(i+1,len(nums)):
+                if nums[j] == candidate_num:
+                    return [i,j]
