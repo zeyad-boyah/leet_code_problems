@@ -2,17 +2,21 @@ from typing import List
 
 class Solution:
     def topKFrequent(self, nums: List[int], k: int) -> List[int]:
-        # make a hash map of every unique num in the array and the number of it's repition 
-        hash_map = {}
-
+        ans_dict = {}
         for num in nums:
-            if num not in hash_map.keys(): hash_map [num] = 0
-            hash_map[num] +=1
-        sorted_hash_map_by_values = dict(sorted(hash_map.items(), key=lambda item: item[1]))
-        # get the first k elements on the sorted hash map
-        keys_list = list(sorted_hash_map_by_values.keys())
-
-        return  keys_list[-k:]
+            if num in ans_dict.keys():
+                ans_dict[num] +=17
+            else: ans_dict[num] = 1
+        freq = [[]for _ in range(len(nums)+1)]
+        for key,value in ans_dict.items():
+            freq[value].append(key)
+        
+        res = []
+        for i in range(len(freq) - 1, 0, -1):
+            for num in freq[i]:
+                res.append(num)
+                if len(res) == k:
+                    return res
 
 
 test = Solution()
