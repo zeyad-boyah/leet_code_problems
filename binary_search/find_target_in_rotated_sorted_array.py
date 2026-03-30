@@ -10,17 +10,14 @@ class Solution:
         if nums[l] < nums[r]:
             inflection_point = l
         else:
-            ans = nums[r]
-            inflection_point = r
-            while l <= r:
-                m= (l+r)//2
-                if ans > nums[m]:
-                    ans = nums[m]
-                    inflection_point = m
-                if nums[m] < nums[r]:
-                    r = m-1
-                elif nums[l] <= nums[m]:
+            while l <r:
+                m = (l+r)//2
+                # this checks if it's on the rightside and if not it CUTS the right side by setting r to m
+                if nums[m] > nums[r]:
                     l = m+1
+                else:
+                    r=m
+            inflection_point = l
         # now that i have the inflection point i can do 
         # a binary search on the part that might contain the target
         if target <= nums[-1]:
@@ -40,6 +37,6 @@ class Solution:
     
     
 test = Solution()
-nums=[5,1,3]
-target=5
+nums = [3,4,5,6,1,2]
+target = 1
 test.search(nums=nums, target=target)
